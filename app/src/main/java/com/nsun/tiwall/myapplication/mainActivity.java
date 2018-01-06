@@ -18,6 +18,8 @@ import com.nsun.tiwall.mylibrary.myView;
 
 public class mainActivity extends Activity {
     public TextView text;
+	
+	//
     public EditText input;
     public String result,inputValue;
     public  myView mview;
