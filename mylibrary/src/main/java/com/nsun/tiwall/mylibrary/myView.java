@@ -16,12 +16,12 @@ import android.widget.Toast;
  * Created by 110 on 31/12/2017.
  */
 
-public class myView {
+public class MyView {
 
 
     private final Context context;
 
-    public myView(Context context){
+    public MyView(Context context){
         this.context = context;
     }
 

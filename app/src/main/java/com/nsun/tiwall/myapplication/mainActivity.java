@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.nsun.tiwall.mylibrary.myView;
+import com.nsun.tiwall.mylibrary.MyView;
 
 /**
  * Created by 110 on 31/12/2017.
@@ -22,7 +22,7 @@ public class mainActivity extends Activity {
 	//
     public EditText input;
     public String result,inputValue;
-    public  myView mview;
+    public  MyView mview;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +31,7 @@ public class mainActivity extends Activity {
         input =(EditText) findViewById(R.id.editText);
 
 
-        mview = new myView(this);
+        mview = new MyView(this);
 
 
         text.setOnClickListener(new View.OnClickListener() {
